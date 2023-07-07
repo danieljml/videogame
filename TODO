@@ -1,0 +1,24 @@
+To Do:
+
+- Check how to lock the framerate
+- Check SDL_CreateRenderer with SDL_RENDERER_PRESENTVSYNC
+- Create a new data structure to store the player's data, using floats to represent position and size, since it makes calculations easier
+- Section: Physics
+	- Every character has an acceleration on each axis
+	- Every character has a number of jumps
+	- Every character should be validated against some jumpable surface to check how it behaves
+	- Every character should stick to the walls
+- Use acceleration instead of fixed value for movement
+- Create some vector to store the direction of the character
+- Span a new entity when firing. In the direction the player is facing towards
+- Collision system to avoid moving if there is some
+- Gravity
+- Terrain
+- Tiles
+- Declare Rects only when necessary
+- How do I substitute the collision block?
+- How does delay work on the lifecycle of the game?
+
+Notes:
+
+- roundf rounds to the nearest integer
